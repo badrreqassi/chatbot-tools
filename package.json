@@ -1,6 +1,6 @@
 {
   "name": "chatbot-tool",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A dynamic tool-loading framework for AI chatbots.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/badrreqassi/chatbot-tool.git"
+    "url": "git+https://github.com/badrreqassi/chatbot-tools.git"
   },
   "author": "badr reqassi",
   "keywords": [
@@ -25,9 +25,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/badrreqassi/chatbot-tool/issues"
+    "url": "https://github.com/badrreqassi/chatbot-tools/issues"
   },
-  "homepage": "https://github.com/badrreqassi/chatbot-tool#readme",
+  "homepage": "https://github.com/badrreqassi/chatbot-tools#readme",
   "dependencies": {
     "@ai-sdk/mistral": "^2.0.24",
     "ai": "^6.0.0-beta.99",

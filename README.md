@@ -87,4 +87,4 @@ MIT © 2025 — Made with ❤️ by Badr Reqassi
 
 🌍 GitHub
 
-🔗 https://github.com/badrreqassi/chatbot-tool
+🔗 https://github.com/badrreqassi/chatbot-tools
