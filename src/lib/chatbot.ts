@@ -16,8 +16,6 @@ export class ChatBot {
     constructor() {
          this.defaultToolsDir =  path.join(__dirname, 'default-tools');
         this.dynamicToolsDir =  path.join(process.cwd(), 'dynamic-tools');
-        console.log('defaultToolsDir',this.defaultToolsDir);
-
 
         // Ensure directories exist
          this.ensureDirExists(this.dynamicToolsDir);
