@@ -1,6 +1,6 @@
 {
   "name": "chatbot-tool",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A dynamic tool-loading framework for AI chatbots.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
