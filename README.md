@@ -28,6 +28,7 @@ Create a .env file in your project root:
 ```js
 MISTRAL_API_KEY=your_mistral_api_key_here
 ````
+https://console.mistral.ai/home
 
 
 🧠 Tool Interface
@@ -70,7 +71,7 @@ export default weather;
 import 'dotenv/config';
 import { startChatBot } from 'chatbot-tool';
 
-await startChatBot();
+startChatBot();
 
 ```
 🔧 Dynamic Tool Loading
