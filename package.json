@@ -1,0 +1,59 @@
+{
+  "name": "chatbot-tool",
+  "version": "0.0.1",
+  "description": "A dynamic tool-loading framework for AI chatbots.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "srart": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badrreqassi/chatbot-tool.git"
+  },
+  "author": "badr reqassi",
+  "keywords": [
+    "chatbot",
+    "ai",
+    "tools",
+    "typescript",
+    "function-calling",
+    "llm"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/badrreqassi/chatbot-tool/issues"
+  },
+  "homepage": "https://github.com/badrreqassi/chatbot-tool#readme",
+  "dependencies": {
+    "@ai-sdk/mistral": "^2.0.24",
+    "ai": "^6.0.0-beta.99",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.9.3"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./default-tools/*": {
+      "import": "./dist/default-tools/*.js",
+      "types": "./dist/default-tools/*.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ]
+}

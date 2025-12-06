@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "target": "ES2022",
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
+    "declaration": true,
+    "isolatedModules": true,
+     "outDir": "dist"
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
